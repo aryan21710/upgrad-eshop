@@ -1,0 +1,9 @@
+.filterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  margin-top: 0px;
+  padding: 10px !important;
+  margin-right: 5.5vw !important;
+}

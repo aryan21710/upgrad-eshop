@@ -1,0 +1,21 @@
+.homeContainer {
+  height: 92vh;
+}
+.productsContainer {
+  height: 82vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px !important;
+  overflow: auto;
+}
+
+.sortAndFilter {
+  width: 100vw !important;
+  position: relative !important;
+  display: flex;
+  justify-content: center !important;
+  flex-direction: row;
+  align-items: center !important;
+}

@@ -1,0 +1,8 @@
+.createOrderContainer {
+  height: 91vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-self: flex-start !important;
+  padding: 0px 10px;
+}

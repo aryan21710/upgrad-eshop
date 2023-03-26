@@ -1,0 +1,97 @@
+.productDetailsContainer {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.productDetailsCard {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  padding: 15px 30px;
+  height: 65vh;
+}
+
+.productDetailsCardInCreateOrder {
+  position: absolute;
+  top: 22vh;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  padding: 15px 30px;
+  height: 70vh;
+}
+
+.productDetailsImage {
+  width: 900px;
+  height: 100%;
+  object-fit: cover !important;
+  margin-right: 30px;
+}
+
+.productDetailsInfoContainer {
+  width: 60%;
+  padding: 0px 10px;
+  height: 500px;
+  position: relative;
+}
+
+.enterQuantity,
+.placeOrder {
+  display: block !important;
+  margin: 20px 0px !important;
+}
+
+.placeOrder {
+  background-color: #3443eb !important;
+}
+
+.nameAndAvailableItems {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.productDetailsInfoContainer p {
+  margin: 10px 0px;
+}
+
+.productDetailsInfoContainer > div {
+  padding: 0px !important;
+}
+
+.priceInProductDetails {
+  color: #3443eb;
+  font-weight: 700;
+}
+
+.categoryInProductDetails {
+  font-weight: 700;
+}
+
+.availableItemsInProductDetails {
+  border-radius: 20px;
+  background-color: #3443eb;
+  color: white;
+  padding: 5px 15px;
+  margin-left: 20px !important;
+}
+
+.productDetailsCardActions {
+  position: absolute;
+  left: 83vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
+
+.productDetailsCardActions > button {
+  margin: 0px !important;
+}

@@ -1,0 +1,68 @@
+.confirmOrderContainer {
+  width: 100vw !important;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  height: 72vh;
+  position: absolute;
+  top: 24vh;
+}
+
+.confirmOrderCard {
+  width: 75vw !important;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+  height: 62vh;
+  overflow: auto !important;
+  margin-top: 2vh !important;
+}
+
+.orderDetails,
+.addressDetails {
+  width: 50vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column !important;
+  align-items: flex-start;
+  height: 50vh;
+  padding: 50px !important;
+  border: 1px solid rgba(7, 2, 2, 0.096) !important;
+}
+
+.addressDetails > h4,
+.orderDetails > h4 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.addressDetails > h6 {
+  font-family: Verdana, sans-serif !important;
+  margin: 0px;
+}
+
+.orderDetails > p {
+  margin: 10px 0px;
+}
+
+.addressDetails {
+  width: 30vw;
+}
+
+.addressDetails > p {
+  margin: 1px 0px;
+}
+
+.confirmOrderActions {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.confirmOrderActions > button:nth-child(2) {
+  background-color: #3443eb;
+  color: white;
+  margin-left: 2vh;
+}

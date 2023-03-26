@@ -1,0 +1,8 @@
+.sortContainer {
+  display: flex !important;
+  align-items: flex-start;
+  padding: 0 !important;
+  position: absolute;
+  left: 3.2vw;
+  top: 1.5vh;
+}

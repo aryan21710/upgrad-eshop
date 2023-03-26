@@ -1,0 +1,48 @@
+.signUpIcon {
+  color: #ffffff;
+  background-color: red;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0px 0px 10px 0px;
+}
+
+.loginFooter {
+  margin: 0px !important;
+  color: grey;
+}
+
+.text {
+  font-size: 20px !important;
+  font-weight: 500;
+  margin: 0px 0px 10px 0px !important;
+}
+
+.signupLink {
+  margin: 0px 0px 10px 0px !important;
+  font-weight: 500;
+}
+
+.input {
+  margin: 8px 0px !important;
+  width: 80%;
+  width: 31vw !important;
+}
+
+.activeButon {
+  background-color: #3443eb !important;
+  color: white !important;
+}
+
+.button {
+  background-color: #3443eb !important;
+  margin: 8px 0px !important;
+  width: 31vw !important;
+}
+
+.checkbox {
+}
+
+.error {
+  color: red !important;
+  margin: 0 auto;
+}

@@ -1,0 +1,23 @@
+.categories {
+  width: 31vw;
+  margin: 8px 0px !important;
+}
+
+.addProductForm {
+  align-items: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  height: 92vh;
+}
+
+.imageZoom {
+  transition: transform 0.5s ease-out;
+}
+
+.imageZoom:hover {
+  transform: scale(1.1);
+}
+
+#react-select-3-listbox {
+  z-index: 2;
+}

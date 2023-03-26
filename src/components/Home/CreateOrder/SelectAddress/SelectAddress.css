@@ -1,0 +1,46 @@
+.selectAddressContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  height: 77vh;
+  overflow: auto !important;
+  position: absolute;
+  top: 19vh;
+}
+
+.formToAddAddress {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62vh;
+  margin-top: 10px !important;
+}
+
+.orText {
+  margin: 5px !important;
+  line-height: 10px !important;
+}
+
+.formToAddAddress div {
+  margin: 11px 0px !important;
+  height: 5vh !important;
+}
+
+.formToAddAddress label {
+  font-size: 14px !important;
+}
+.addAddressHeading {
+  margin: 0px !important;
+  height: 2vh !important;
+}
+
+.selectAddressDropDownContainer {
+  margin: 2vh 0vh !important;
+  width: 30vw;
+}
+
+.selectAddressDropDown {
+  height: 5vh !important;
+}
