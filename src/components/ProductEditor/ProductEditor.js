@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import TextField from "@mui/material/TextField";
@@ -38,6 +38,8 @@ const ProductEditor = ({
 		value: index,
 		label: category,
 	}));
+
+	const formikRef = useRef(null);
 
 	const { selectedCategory } = productInformation;
 
@@ -81,11 +83,12 @@ const ProductEditor = ({
 		if (response?.message) {
 			toast.dismiss();
 			toast.success(response?.message, TOASTIFY_CONFIG);
+			formikRef.current.resetForm();
 		}
 	}, [response]);
 
 	return (
-		<Formik
+		<Formik innerRef={formikRef}
 			initialValues={{ ...productInformation }}
 			validationSchema={validationSchema}
 			onSubmit={(values) => {
