@@ -24,22 +24,22 @@ export const RESTRICTED_ROUTES = [
 	"/produ",
 ];
 
-export const LOGIN_SUCCESS = "User Signed In Successfully";
+export const LOGIN_SUCCESS = "User Signed In successfully";
 export const LOGIN_ERROR = "Sign In Failed";
 export const SIGNUP_SUCCESS = "Sign up Successfull";
 export const SIGNUP_ERROR = "Sign up Failed";
 export const UNATHORIZED = "Restricted Page. Please Sign In.";
-export const ADD_PRODUCT_SUCCESS = "Product has been added Successfully";
-export const UPDATE_PRODUCT_SUCCESS = "Product has been modified Successfully";
-export const DELETE_PRODUCT_SUCCESS = "Product deleted Successfully";
+export const ADD_PRODUCT_SUCCESS = "Product has been added successfully";
+export const UPDATE_PRODUCT_SUCCESS = "Product has been modified successfully";
+export const DELETE_PRODUCT_SUCCESS = "Product deleted successfully";
 export const ADD_PRODUCT_ERROR = "Failed to add Product.";
 export const ADD_ADDRESS_ERROR = "Failed to add Address.";
-export const ADD_ADDRESS_SUCCESS = "Address added Successfully.";
+export const ADD_ADDRESS_SUCCESS = "Address added successfully.";
 export const UPDATE_PRODUCT_ERROR = "Failed to update Product.";
 export const DELETE_PRODUCT_ERROR = "Failed to delete Product.";
 export const GET_ALL_PRODUCT_ERROR = "Failed to fetch Products.";
 export const GET_CATEGORIES_ERROR = "Failed to fetch Categories.";
-export const ORDER_PLACE_SUCCESS = "Placed Order Successfully.";
+export const ORDER_PLACE_SUCCESS = "Order placed successfully.";
 
 export const INR = "\u20B9";
 

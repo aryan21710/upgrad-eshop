@@ -36,7 +36,7 @@
   top: 5px;
   font-family: fantasy !important;
   font-weight: 700 !important;
-  color: #3443eb;
+  color: #3f51b5;
 }
 
 .cardActions {
@@ -69,5 +69,5 @@
 }
 
 .buy {
-  background-color: #3443eb !important;
+  background-color: #3f51b5 !important;
 }
