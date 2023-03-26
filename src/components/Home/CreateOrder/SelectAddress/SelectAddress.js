@@ -89,7 +89,6 @@ const SelectAddress = ({
 				initialValues={{ ...addressInformation }}
 				validationSchema={validationSchema}
 				onSubmit={(values) => {
-					console.log(values);
 					dispatch(addAddress(values, setResponse, setAddressThruForm));
 				}}
 			>

@@ -20,6 +20,16 @@ const CreateOrder = () => {
 	const [isOrderPlaced, setIsOrderPlaced] = useState(false);
 	const [canPlaceOrder, setCanPlaceOrder] = useState(false);
 
+	let addressToPlaceOrder={};
+
+	if (Object.keys(addressThruForm).length > 0) {
+		addressToPlaceOrder = {...addressThruForm};
+	} else if (Object.keys(selectedAddress).length > 0) {
+		addressToPlaceOrder = {...selectedAddress};
+	} else {
+		addressToPlaceOrder={};
+	}
+
 	const onPlaceOrder = () => {
 		if (canPlaceOrder) {
 			setIsOrderPlaced(true);
@@ -57,7 +67,7 @@ const CreateOrder = () => {
 		case 2:
 			return (
 				<ConfirmOrder
-					selectedAddress={selectedAddress}
+					selectedAddress={addressToPlaceOrder}
 					onPlaceOrder={onPlaceOrder}
 					canPlaceOrder={canPlaceOrder}
 				/>

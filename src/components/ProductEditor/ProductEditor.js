@@ -89,7 +89,6 @@ const ProductEditor = ({
 			initialValues={{ ...productInformation }}
 			validationSchema={validationSchema}
 			onSubmit={(values) => {
-				console.log(values);
 				let productInformation = {
 					...values,
 					category: value.label.toUpperCase(),
